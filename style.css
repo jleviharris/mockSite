@@ -1,0 +1,129 @@
+body {
+  background: black;
+}
+.firstHeader {
+  color: #6dcd60;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+.firstHeaderSub {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+}
+.cardContainer {
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.card {
+  margin: 1.5rem;
+  border-radius: 20px;
+  width: 20rem;
+}
+.card-title {
+  background: #22313e;
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  color: white;
+  padding: 0.25rem 0.75rem;
+}
+.card-text {
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+.stars {
+  font-size: 0.5rem;
+  margin-top: 0;
+  padding-top: 0.5rem;
+}
+.pageBottom {
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+.imgContainer {
+  border: 2px solid #383838;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  z-index: 10;
+}
+.pageBottomRight {
+  margin-left: 1.5rem;
+}
+.header {
+  color: #1bb520;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  margin-left: 1.25rem;
+}
+.headerSub {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  margin-left: 1.25rem;
+}
+.history {
+  margin-left: 1.25rem;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  width: 75%;
+}
+.bulletsContainer {
+  margin-top: 3rem;
+}
+.bullets {
+  font-size: 0.75rem;
+}
+.bullets svg {
+  margin-right: 0.25rem;
+}
+.bullets p {
+  width: 50%;
+  margin-left: 0;
+  padding-left: 0;
+}
+@media only screen and (max-width: 1400px) {
+  .imgContainer {
+    width: 200px;
+    height: 200px;
+  }
+  .card {
+    width: 15rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  .card {
+    width: 10rem;
+  }
+  .card-text {
+    font-size: 0.75rem;
+  }
+  .pageBottomRight {
+    margin: 4rem 0 0 0;
+  }
+  .imgContainer {
+    margin: auto;
+  }
+}
