@@ -15,7 +15,6 @@ body {
 .cardContainer {
   justify-content: center;
   margin-top: 1rem;
-  width: 100%;
 }
 .card {
   margin: 1.5rem;
@@ -41,10 +40,8 @@ body {
   padding-top: 0.5rem;
 }
 .pageBottom {
-  justify-content: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  width: 100%;
 }
 .imgContainer {
   border: 2px solid #383838;
@@ -53,8 +50,6 @@ body {
   position: relative;
 }
 .imgContainer img {
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 10px;
   left: -10px;
@@ -80,7 +75,6 @@ body {
   margin-left: 1.25rem;
   font-size: 0.75rem;
   margin-top: 1rem;
-  width: 75%;
 }
 .bulletsContainer {
   margin-top: 3rem;
